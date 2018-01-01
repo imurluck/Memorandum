@@ -19,7 +19,10 @@
         解决方法：sudo apt-get install flashplugin-nonfree
 - androidstudio
 	    问题描述：模拟器不能使用，出现Emulator: libGL error: unable to load driver: i965_dri.so
-        解决方法：添加一个链接ln -sf /usr/lib/libstdc++.so.6  ~/Android/Sdk/emulator/lib64/libstdc++/libstdc++.so.6
-后面的是在sdk下模拟器中的库
+        解决方法：添加一个链接ln -sf /usr/lib/libstdc++.so.6  ~/Android/Sdk/emulator/lib64/libstdc++/libstdc++.so.6后面的是在sdk下模拟器中的库
+
+- eclise
+	问题描述：![](./eclipse/eclipse.png "jre 路径错误" "width:140px;height:60px")
+        解决方法：添加一条链接sudo ln -s /jdk-9.0.1/ /opt/eclipse/jre
 
 
