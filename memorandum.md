@@ -25,4 +25,9 @@
 	问题描述：![](./eclipse/eclipse.png "jre 路径错误" "width:140px;height:60px")
         解决方法：添加一条链接sudo ln -s /jdk-9.0.1/ /opt/eclipse/jre
 
+### 电脑相关
+- R720打开wifi
+		sudo modprobe -r ideapad_laptop
+
+
 
