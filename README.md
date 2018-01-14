@@ -28,7 +28,7 @@
 - git
 	问题描述:需要在文件路径后面添加当前分支名称
     解决方法:在.bashrc文件末尾添加
-    ```java
+```java
     function parse_git_dirty {
   [[ $(git status 2> /dev/null | tail -n1) != "无文件要提交，干净的工作区" ]] && echo "*"
 }
@@ -38,6 +38,7 @@ function parse_git_branch {
 export PS1='\u@\h:\w\[\e[1;36m\]$(parse_git_branch)\[\e[0m\]$ '
 ```
 然后执行source .bashrc命令激活
+
 ### 电脑相关
 - R720打开wifi
 		sudo modprobe -r ideapad_laptop
